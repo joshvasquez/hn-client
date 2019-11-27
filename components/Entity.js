@@ -4,7 +4,7 @@ import UserLink from "../components/UserLink";
 // these could be one component
 const ItemLink = props => (
   <>
-    <Link href="/story/[id]" as={`/story/${props.id}`}>
+    <Link href="/item/[id]" as={`/item/${props.id}`}>
       <a>{props.children}</a>
     </Link>
   </>
