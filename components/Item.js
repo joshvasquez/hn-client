@@ -8,6 +8,13 @@ const ItemLink = props => (
     </Link>
   </li>
 );
+const UserLink = props => (
+  <li>
+    <Link href="/user/[id]" as={`/user/${props.id}`}>
+      <a>{props.id}</a>
+    </Link>
+  </li>
+);
 
 function Item(props) {
   const item = props.item;
@@ -18,12 +25,7 @@ function Item(props) {
 
       <ul>
         <li>{item.points} points</li>
-        <li>
-          by{" "}
-          <a href={`https://news.ycombinator.com/user?id=${item.user}`}>
-            {item.user}
-          </a>
-        </li>
+        <UserLink id={item.user} />
         <li>{item.time_ago} ago</li>
         <ItemLink id={item.id} comments={item.comments_count} />
       </ul>
