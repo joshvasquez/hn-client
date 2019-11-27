@@ -1,8 +1,8 @@
 import { useRouter } from "next/router";
 import Link from "next/link";
 import fetch from "isomorphic-unfetch";
-import Layout from "../../../components/MyLayout";
-import Item from "../../../components/Item";
+import Layout from "../../../components/Layout";
+import Entity from "../../../components/Entity";
 // const api = `https://api.hackerwebapp.com`;
 const api = `https://hacker-news.firebaseio.com/v0/`;
 

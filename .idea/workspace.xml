@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="def1e6ca-4515-4e12-85f1-7f0a6e809428" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/components/Entity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Item.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/MyLayout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/UserLink.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/UserLink.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/story/[id]/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/item/[id]/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/user/[id]/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/user/[id]/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1UC5LNWZuS0a8FMSTEyaz1pgu18" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="def1e6ca-4515-4e12-85f1-7f0a6e809428" name="Default Changelist" comment="" />
+      <created>1574847680070</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574847680070</updated>
+      <workItem from="1574847684878" duration="501000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1000" y="738" width="1538" height="680" key="#Vim_Emulation" timestamp="1574848142086">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1000" y="738" width="1538" height="680" key="#Vim_Emulation/0.23.2560.1417/-1440.622.1440.877@0.23.2560.1417" timestamp="1574848142086" />
+    <state x="1278" y="379" key="SettingsEditor" timestamp="1574848120992">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1278" y="379" key="SettingsEditor/0.23.2560.1417/-1440.622.1440.877@0.23.2560.1417" timestamp="1574848120992" />
+  </component>
+</project>
