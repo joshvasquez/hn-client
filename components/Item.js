@@ -1,9 +1,9 @@
 import Link from "next/link";
 
+// these could be one component
 const ItemLink = props => (
   <li>
     <Link href="/story/[id]" as={`/story/${props.id}`}>
-      {/* {props.comments} comments */}
       <a>{props.comments} comments</a>
     </Link>
   </li>
@@ -29,18 +29,6 @@ function Item(props) {
         <li>{item.time_ago} ago</li>
         <ItemLink id={item.id} comments={item.comments_count} />
       </ul>
-      <style jsx>
-        {`
-          ol > li {
-            list-style-type: default;
-          }
-          ul > li {
-            list-style-type: none;
-            display: inline;
-            padding: 0.2em;
-          }
-        `}
-      </style>
     </li>
   );
 }

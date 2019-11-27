@@ -10,8 +10,6 @@ const List = props => <ol>{props.children}</ol>;
 
 const Index = props => (
   <Layout>
-    <h1>Hacker News</h1>
-
     <List>
       {props.topStories.map(item => (
         <Item item={item} />

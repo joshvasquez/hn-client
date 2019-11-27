@@ -10,18 +10,16 @@ function Comments(props) {
   const comments = props.comments;
   return (
     <ul>
-      <li>
-        {comments.map(function(item) {
-          const content = { __html: item.content };
-          return (
-            <>
-              <h1>{item.user}</h1>
-              <div dangerouslySetInnerHTML={content} />
-              {item.comments ? <Comments comments={item.comments} /> : ""}
-            </>
-          );
-        })}
-      </li>
+      {comments.map(function(item) {
+        const content = { __html: item.content };
+        return (
+          <li>
+            <h1>{item.user}</h1>
+            <div dangerouslySetInnerHTML={content} />
+            {item.comments ? <Comments comments={item.comments} /> : null}
+          </li>
+        );
+      })}
     </ul>
   );
 }
