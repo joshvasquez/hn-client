@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="def1e6ca-4515-4e12-85f1-7f0a6e809428" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/Entity.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Item.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/MyLayout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/UserLink.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/UserLink.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/story/[id]/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/item/[id]/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/user/[id]/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/user/[id]/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="def1e6ca-4515-4e12-85f1-7f0a6e809428" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +46,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574847680070</updated>
       <workItem from="1574847684878" duration="501000" />
+      <workItem from="1574855236216" duration="99000" />
     </task>
     <servers />
   </component>

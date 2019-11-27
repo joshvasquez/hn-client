@@ -39,7 +39,6 @@ const Story = props => {
 Story.getInitialProps = async function({ res, query }) {
   const result = await fetch(`${api}/item/${query.id}`);
   const data = await result.json();
-  console.log(data.comments);
   return { story: data };
 };
 

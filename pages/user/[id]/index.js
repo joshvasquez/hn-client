@@ -21,7 +21,6 @@ function User(props) {
 User.getInitialProps = async function({ res, query }) {
   const result = await fetch(`${api}/user/${query.id}.json`);
   const data = await result.json();
-  console.log(data);
   return { user: data };
 };
 
