@@ -9,7 +9,7 @@ const api = `https://hacker-news.firebaseio.com/v0/`;
 function User(props) {
   const about = { __html: props.user.about };
   return (
-    <Layout>
+    <Layout title={`Profile: ${props.user.id} | Hacker News`}>
       <h1>{props.user.id}</h1>
       <div>karma: {props.user.karma}</div>
       <div>created: {Date(props.user.created)}</div>

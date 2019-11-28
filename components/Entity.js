@@ -33,31 +33,21 @@ function Entity(props) {
         <a href={item.url}>{item.title}</a>
       )}
       <div>
-        <span>{item.points} points</span>
+        <span>{item.points} points</span> |{" "}
         <span>
           <UserLink id={item.user}>{item.user}</UserLink>
-        </span>
-        <span>{item.time_ago} ago</span>
+        </span>{" "}
+        | <span>{item.time_ago} ago</span>
         <span>
+          {" "}
+          |{" "}
           <ItemLink id={item.id} comments={item.comments_count}>
             {item.comments_count} comments
           </ItemLink>
         </span>
       </div>
       <div dangerouslySetInnerHTML={content}></div>
-      <style jsx>{`
-        span::before {
-          content: " | ";
-        }
-        span:first-of-type::before {
-          content: "";
-        }
-        span:first-of-type {
-          padding-left: 0;
-        }
-      `}</style>
     </li>
   );
 }
-
 export default Entity;

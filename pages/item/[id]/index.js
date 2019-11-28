@@ -28,7 +28,7 @@ function Comments(props) {
 
 const Story = props => {
   return (
-    <Layout>
+    <Layout title={props.story.title}>
       <Entity item={props.story} />
 
       <Comments comments={props.story.comments} />

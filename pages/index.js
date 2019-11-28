@@ -9,7 +9,7 @@ const maxStories = 30;
 const List = props => <ol>{props.children}</ol>;
 
 const Index = props => (
-  <Layout>
+  <Layout title="Hacker News">
     <List>
       {props.topStories.map(item => (
         <Entity item={item} key={item.id} />
