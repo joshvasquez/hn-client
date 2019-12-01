@@ -16,13 +16,15 @@ function Listing(props) {
         <Entity item={item} key={item.id} num={item.num} />
       ))}
       {currentPage >= 2 ? (
-        <Link href={`/${prevPage}`}>
-          <a>Prev</a>
-        </Link>
+        <>
+          <Link href={`/${prevPage}`}>
+            <a>Prev</a>
+          </Link>
+          {" | "}
+        </>
       ) : (
         ""
-      )}{" "}
-      {currentPage}{" "}
+      )}
       <Link href={`/${nextPage}`}>
         <a>Next</a>
       </Link>
