@@ -13,16 +13,12 @@ const ItemLink = props => (
 function Entity(props) {
   const item = props.item;
   const content = { __html: item.content };
-  // console.log(item.url, item.comments_count);
-  // if (item.url.includes(item.id)) {
-  //   const url = `https://news.ycombinator.com/${item.url}`;
-  //   console.log(url);
-  // }
 
   // hacky - should probably have everything be a basic entity since all items on the api are mostly the same thing.
 
   return (
-    <li>
+    <>
+      <span>{item.num}. </span>
       {item.type == "ask" ? (
         <ItemLink id={item.id} comments={item.comments_count}>
           {item.title}
@@ -47,7 +43,7 @@ function Entity(props) {
         </span>
       </div>
       <div dangerouslySetInnerHTML={content}></div>
-    </li>
+    </>
   );
 }
 export default Entity;
