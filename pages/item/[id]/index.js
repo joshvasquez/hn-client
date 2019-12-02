@@ -15,11 +15,14 @@ function Comments(props) {
       {comments.map(function(item) {
         const content = { __html: item.content };
         return (
+	  <>
           <li className="comment">
             <UserLink id={item.user}>{item.user}</UserLink>
             <div dangerouslySetInnerHTML={content} />
-            {item.comments ? <Comments comments={item.comments} /> : null}
+	    <div><a href={ `https://news.ycombinator.com/reply?id=${item.id}` }>reply</a></div>
           </li>
+            {item.comments ? <Comments comments={item.comments} /> : null}
+	  </>
         );
       })}
     </ul>
