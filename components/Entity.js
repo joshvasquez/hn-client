@@ -18,7 +18,7 @@ function Entity(props) {
 
   return (
     <>
-      <span>{item.num}</span>
+      <span>{item.num}{item.num? ". ":""}</span>
       {item.type == "ask" ? (
         <ItemLink id={item.id} comments={item.comments_count}>
           {item.title}
